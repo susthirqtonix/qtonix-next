@@ -272,7 +272,7 @@ export default function HomePage() {
     <main className="relative z-10 bg-white text-slate-600 antialiased overflow-x-hidden">
 
       {/* ── HERO ─────────────────────────────────────────────────────────── */}
-      <section className="relative pt-32 pb-20 lg:pt-32 lg:pb-32 overflow-hidden bg-[#F8FAFC]">
+      <section className="relative pt-32 pb-24 lg:pt-36 lg:pb-36 overflow-hidden bg-[#F8FAFC]">
         <div className="absolute inset-0 z-0 opacity-30" style={{ backgroundImage: "linear-gradient(#e2e8f0 1px,transparent 1px),linear-gradient(90deg,#e2e8f0 1px,transparent 1px)", backgroundSize: "40px 40px" }} />
         <div className="absolute top-[-20%] right-[-10%] w-[600px] h-[600px] bg-[#FF6A00]/20 rounded-full mix-blend-multiply filter blur-[120px] animate-pulse pointer-events-none" />
         <div className="absolute bottom-[-10%] left-[-10%] w-[500px] h-[500px] bg-blue-400/15 rounded-full mix-blend-multiply filter blur-[100px] pointer-events-none" style={{ animationDelay: "2s" }} />
@@ -293,12 +293,12 @@ export default function HomePage() {
           <span className="text-[10px] font-bold text-slate-500 uppercase tracking-widest">Top Rated Team</span>
         </div>
 
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10 text-center">
+        <div className="max-w-[1274px] pt-8 mx-auto px-4 sm:px-6 lg:px-8 relative z-10 text-center">
           <div className="inline-flex items-center space-x-2 bg-white border border-[#E2E8F0] rounded-full px-4 py-1.5 mb-8 shadow-sm">
             <span className="flex h-2 w-2 rounded-full bg-[#FF6A00] animate-ping" />
             <span className="text-xs font-bold tracking-widest text-[#050A1F] uppercase">The Performance Marketing Agency</span>
           </div>
-          <h1 className="text-5xl md:text-7xl font-extrabold text-[#050A1F] tracking-tight leading-[1.1] mb-6">
+          <h1 className="text-5xl md:text-7xl lg:text-[80px] font-extrabold text-[#050A1F] tracking-tight leading-[1.1] mb-6">
             Traffic To Your Site. <br />
             <span className="text-transparent bg-clip-text" style={{ backgroundImage: "linear-gradient(135deg,#FF8C00 0%,#FF4500 100%)" }}>Revenue To Your Bank.</span>
           </h1>
