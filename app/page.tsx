@@ -1,15 +1,7 @@
-import './globals.css'
-import Header from './components/Header'
-import Footer from './components/Footer'
-
-export default function RootLayout({ children }) {
+export default function Home() {
   return (
-    <html lang="en">
-      <body>
-        <Header />
-        {children}
-        <Footer />
-      </body>
-    </html>
+    <div>
+      <h1>Qtonix Website</h1>
+    </div>
   )
 }
